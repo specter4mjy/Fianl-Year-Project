@@ -1,6 +1,7 @@
 \chapter{Simple transistor circuit}
 
-Figure \ref{fig:singletransistorcircuit} shows the basic NPN bipolar junction transistor circuit that base voltage makes transistor fully switch on.
+\section{Transistor basic property}
+Figure \ref{fig:singletransistorcircuit} shows the basic NPN bipolar junction transistor circuit.
 
 \begin{figure}[htbp]
 \centering
@@ -10,8 +11,9 @@ Figure \ref{fig:singletransistorcircuit} shows the basic NPN bipolar junction tr
 
 \end{figure}
 
+ We can get transistor operating state from simulation result as Table \ref{tab:DC operating point analysis result}. It's obvious that $I_C$ and $I_E$ is proximately 200 times greater than $I_B$ which is the main function of transistor.
 
-\begin{table}[htbp]
+\begin{table}[h]
 	\centering 
 	
 	\begin{tabular} { >{\columncolor{mycolor} \centering}m{3cm}  | >{\centering\arraybackslash }m{3cm}}
@@ -28,13 +30,15 @@ Figure \ref{fig:singletransistorcircuit} shows the basic NPN bipolar junction tr
 	\label{tab:DC operating point analysis result}
 \end{table}
 
+ Equation \ref{equ:betedefinition} defines $\beta$ which is the most important parameter of transistor.  
+\begin{equation}
+\beta = \frac{I_C}{I_B}
+\label{equ:betedefinition}
+\end{equation}
 
 
-
-
-
-
-Therefore, we need a method  which we can control the output current with, see Figure \ref{fig:basictransistorcircuitwithRcandRe}.
+\section{Limit current gain} 
+Generally, we need a method to control the current gain as we want. Figure \ref{fig:basictransistorcircuitwithRcandRe} is a simply solution by adding transistor $R_C$ and $R_E$.
 
 \begin{figure}[htbp]
 \centering
@@ -42,3 +46,20 @@ Therefore, we need a method  which we can control the output current with, see F
 \caption{Basic transistor circuit with $R_c$ and $R_e$}
 \label{fig:basictransistorcircuitwithRcandRe}
 \end{figure}
+
+We can derive voltage gain $A_V$ with Equation \ref{equ:Avdefinition}. And in circuit in Figure \ref{fig:basictransistorcircuitwithRcandRe}, $A_V$ is approximate 5 theoretically.
+\begin{equation}
+A_V \triangleq \frac{ V_{out}} { V_{in}} \approx -\frac{R_C}{R_E}
+\label{equ:Avdefinition}
+\end{equation}
+
+From simulation result in Figure \ref{fig:basictransistorciruitoutput}, the practical $A_V = \frac{7.6486m}{2m}=3.8243$.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{"../Photo/Chap1/basic transistor ciruit output wave"}\\[0.5cm]
+\includegraphics[scale=1]{"../Photo/Chap1/basic transistor ciruit output cursor data"}
+\caption{Output of the circuit in Figure \ref{fig:basictransistorcircuitwithRcandRe} }
+\label{fig:basictransistorciruitoutput}
+\end{figure}
+
