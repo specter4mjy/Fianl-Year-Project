@@ -2,9 +2,16 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Single transistor circuit}}{4}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces $ V_{be} $ and $ I_c $ curve}}{5}
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Basic transistor circuit with $R_c$ and $R_e$}}{6}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Output of the circuit in Figure 1.3\hbox {} }}{7}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Output of the circuit in Figure 1.3\hbox {} }}{6}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Add voltage divider and capacitors }}{7}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces simple negative feedback system}}{8}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Implement negative feedback circuit with Op-amp}}{9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Op-amp feedback simulation result curve}}{10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Op-amp feedback simulation result curve}}{9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Implement negative feedback circuit with transistor}}{10}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces transistor feedback circuit simulation result}}{11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces single current source circuit}}{12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces single current source circuit simulation result}}{13}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces the circuit after adding current source}}{14}
+\addvspace {10\p@ }

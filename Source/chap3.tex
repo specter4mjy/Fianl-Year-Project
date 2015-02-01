@@ -1,0 +1,41 @@
+\chapter{Current Source}
+\section{Single current source circuit}
+
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale =0.6]{"../Photo/Chap1/single current source"}
+\caption{single current source circuit}
+\label{fig:singlecurrentsource}
+\end{figure}
+
+Generally, we need a constant current source in circuit and the most classic one shows in Figure \ref{fig:singlecurrentsource}.
+
+As we know the forward voltage cross a diode is about 0.65V which is approximately equal to $ V_{be} of transistor $. 
+\[ V_B = 2 \times V_{diode} = V_{be} + V_{R_{33}}  \]   
+Therefore:
+\[  V_{R_{33}} = V_{diode} = 0.65V \] 
+\[ I_e = \frac{V_{R_{33}}}{R_{33}} = \frac{0.65V}{1150 \Omega} = 565.217 \mu A \]
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=1]{"../Photo/Chap1/single current source simulation result"}
+\caption{single current source circuit simulation result}
+\label{fig:singlecurrentsourcesimulationresult}
+\end{figure}
+
+From Figure \ref{fig:singlecurrentsourcesimulationresult}, we can see simulation result is close to the value we calculated. This simple circuit are able to supply constant current.
+
+
+\section{Use current source to replace output resistor}
+
+Now we can use current source to replace the  $ R_{16} $  in circuit of Figure \ref{fig:transistorfeedback}.
+Current source can supply stable current output. Till this step, we have finished the voltage amplifier part circuit but current of output is still enough to drive a headphone.
+ 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6 ]{"../Photo/Chap1/add cuurent source"}
+	\caption{the circuit after adding current source}
+	\label{fig:addcuurentsource}
+\end{figure}
