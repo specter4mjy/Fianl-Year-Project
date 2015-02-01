@@ -1,0 +1,45 @@
+\chapter{Negative Feedback}
+\section{Simple Negative Feedback system}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6]{"../Photo/Chap1/Feedback system"}
+	\caption{simple negative feedback system}
+	\label{fig:Feedback system}
+\end{figure}
+
+Figure \ref{fig:Feedback system} show a simple negative feedback system in which A is ideal amplifier and B is feedback network. 
+
+\[  \frac{V_{out}}{V_{in}} = B  \] 
+
+\section{Implement With Op-amp}
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap1/Op-amp feedback"}
+	\caption{Implement negative feedback circuit with Op-amp}
+	\label{fig:Op-amp feedback}
+\end{figure}
+
+
+In Figure \ref{fig:Op-amp feedback}, an Op-amp 741 is used to implement the negative feedback circuit in Figure \ref{fig:Feedback system}.
+
+741 is part A while R1 and R2 form feedback network. 
+\[ \frac{V_{out}}{V_{in}} = B = \frac{R1 + R2}{R2} = \frac{10K + 1K}{1K} = 11 \]
+ 
+\begin{figure}[htbp]
+	\centering 
+	\includegraphics[scale=0.7]{"../Photo/Chap1/Op-amp feedback simulation wave"}\\[0.5cm]
+	\includegraphics[scale =1]{"../Photo/Chap1/Op-amp feedback simulation cursor data"}
+	\caption{Op-amp  feedback simulation result curve}
+	\label{fig:Op-amp  feedback simulation result }
+\end{figure}
+
+From simulation result in Figure \ref{fig:Op-amp  feedback simulation result }, 
+\[ B = \frac{\Delta V_{out}}{\Delta V_{in}} =  \frac{2.1972}{199.8674m} =  10.99328 \]
+ 
+Obviously, the simulation result is very close to our estimation.
+
+
+
