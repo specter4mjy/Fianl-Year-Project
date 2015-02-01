@@ -36,6 +36,17 @@ Figure \ref{fig:singletransistorcircuit} shows the basic NPN bipolar junction tr
 \label{equ:betedefinition}
 \end{equation}
 
+\section{Relationship between Base voltage($ V_{be} $) and Collector current($ I_c $)}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[scale=0.7]{"../Photo/Chap1/Vbe and Ic curve"}
+  \caption{$ V_{be} $ and $ I_c $ curve}
+  \label{fig:VbeandIccurve}
+\end{figure}
+
+After running DC sweep command on $ V4 $ in circuit of Figure \ref{fig:singletransistorcircuit}, We can get the curve of Figure \ref{fig:VbeandIccurve}. This illustrate that when $ V_{be} < 0.65V $, $ I_c $ is very small and when $ V_{be} > 0.65V $, $ I_c $ is increase significantly. Therefore, We can simply consider that when $ V_{be} > 0.65V$ , transistor is on.
+
 
 \section{Limit current gain} 
 Generally, we need a method to control the current gain as we want. Figure \ref{fig:basictransistorcircuitwithRcandRe} is a simply solution by adding transistor $R_C$ and $R_E$.
@@ -53,7 +64,7 @@ A_V \triangleq \frac{ V_{out}} { V_{in}} \approx -\frac{R_C}{R_E}
 \label{equ:Avdefinition}
 \end{equation}
 
-From simulation result in Figure \ref{fig:basictransistorciruitoutput}, the practical $A_V = \frac{7.6486m}{2m}=3.8243$.
+
 
 \begin{figure}[htbp]
 \centering
@@ -61,5 +72,18 @@ From simulation result in Figure \ref{fig:basictransistorciruitoutput}, the prac
 \includegraphics[scale=1]{"../Photo/Chap1/basic transistor ciruit output cursor data"}
 \caption{Output of the circuit in Figure \ref{fig:basictransistorcircuitwithRcandRe} }
 \label{fig:basictransistorciruitoutput}
+\end{figure}
+
+From simulation result in Figure \ref{fig:basictransistorciruitoutput}, the practical $A_V = \frac{7.6486m}{2m}=3.8243$ which is close to theoretic value.
+
+\section{Add voltage divider}
+
+As we know, we need make sure $ V_{be} > 0.65V $ for transistor operating correctly. But in practical application, it's hard to keep input signal always meeting this requirement. So we can add capacitor and voltage divider solve this problem like Figure \ref{fig:add voltage divider}. In which, capacitor block the original DC voltage of input signal and voltage divider add the DC voltage which we require to signal. Finally, we use another capacitor for outputting pure AC signal form our circuit. 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap1/add voltage divider"} 
+	\caption{Add voltage divider and capacitors }
+	\label{fig:add voltage divider}
 \end{figure}
 
