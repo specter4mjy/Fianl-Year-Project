@@ -13,5 +13,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces single current source circuit}}{12}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces single current source circuit simulation result}}{13}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces the circuit after adding current source}}{14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces the circuit after adding current source}}{13}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Class A output stage}}{14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Class A output stage simulation result}}{15}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Class A DC operating current simulation data}}{15}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Class AB output stage}}{16}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Class AV output stage simulation resut}}{16}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Class AB output stage DC operating current}}{17}

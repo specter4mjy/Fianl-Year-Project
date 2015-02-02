@@ -1,1 +1,63 @@
 \chapter{Output Stage}
+
+\section{Class A Output Stage}
+
+In Figure \ref{fig:ClassAoutputstage}, transistor Q2 and resistor R1 made up of Class A output stage.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{"../Photo/Chap1/Class A output stage"}
+\caption{Class A output stage}
+\label{fig:ClassAoutputstage}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.5]{"../Photo/Chap1/Class A simulation result"}
+\caption{Class A output stage simulation result}
+\label{fig:ClassAsimulationresult}
+\end{figure}
+
+As we can see in Figure \ref{fig:ClassAsimulationresult}, output signal of class A output stage is good enough to follow the input signal.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8]{"../Photo/Chap1/Class A DC operating current"}
+\caption{Class A DC operating current simulation data}
+\label{fig:ClassADCoperatingcurrent}
+\end{figure}
+
+But from DC operating simulation result in Figure \ref{fig:ClassADCoperatingcurrent} we know Class A will consume a lot of current from battery and resistor R1 also waste a lot of power. It's can't acceptable because the final circuit is powered by battery.
+
+
+\section{Class AB Output Stage}
+
+For better efficiency, we tried Class AB output stage which showed in Figure \ref{fig:ClassABoutputstage}. Transistor Q4 and Q5 are used for amplifying upper and lower part of input signal. Resistor R10 and R11 and transistor Q7 are made up of $ V_{be}  $ multiplier. In this case, it generate 2$ V_{be} $ cross between collector and emitter of Q7 which eliminates the crossover distortion caused by $ V_{be}  $ of Q4 and Q5.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6 ]{"../Photo/Chap1/Class AB output stage"}
+\caption{Class AB output stage}
+\label{fig:ClassABoutputstage}
+\end{figure}
+
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6 ]{"../Photo/Chap1/Class AB output stage simlation result"}
+\caption{Class AV output stage simulation resut}
+\label{fig:ClassABoutputstagesimlationresult}
+\end{figure}
+
+Finally, we can see from Figure \ref{fig:ClassABoutputstagesimlationresult} there is almost no distortion in output signal.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.8 ]{"../Photo/Chap1/Class AB output stage DC operatingh current data"}
+\caption{Class AB output stage DC operating current}
+\label{fig:ClassABoutputstageDCoperatinghcurrentdata}
+\end{figure}
+
+In Figure \ref{fig:ClassABoutputstageDCoperatinghcurrentdata}, we know that DC operating current of Class AB output stage is much smaller than Class A. Therefore, Class AB output stage much more efficient and meet our requirement.

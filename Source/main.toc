@@ -10,4 +10,6 @@
 \contentsline {chapter}{\numberline {3}Current Source}{12}
 \contentsline {section}{\numberline {3.1}Single current source circuit}{12}
 \contentsline {section}{\numberline {3.2}Use current source to replace output resistor}{13}
-\contentsline {chapter}{\numberline {4}Output Stage}{15}
+\contentsline {chapter}{\numberline {4}Output Stage}{14}
+\contentsline {section}{\numberline {4.1}Class A Output Stage}{14}
+\contentsline {section}{\numberline {4.2}Class AB Output Stage}{15}
