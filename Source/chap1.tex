@@ -36,16 +36,35 @@ Figure \ref{fig:singletransistorcircuit} shows the basic NPN bipolar junction tr
 \label{equ:betedefinition}
 \end{equation}
 
-\section{Relationship between Base voltage($ V_{be} $) and Collector current($ I_c $)}
+\section{Find $ R_e $ }
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[scale=0.6]{"../Photo/Chap1/Vbe and Ic curve"}
+  \includegraphics[scale=0.6]{"../Photo/Chap1/Ie is 2 mA Vbe is 657mV"}\\[0.5cm]
+  \includegraphics[scale=0.8]{"../Photo/Chap1/Ie is 2 mA Vbe is 657mV data"}
   \caption{$ V_{be} $ and $ I_c $ curve}
   \label{fig:VbeandIccurve}
 \end{figure}
 
-After running DC sweep command on $ V4 $ in circuit of Figure \ref{fig:singletransistorcircuit}, We can get the curve of Figure \ref{fig:VbeandIccurve}. This illustrate that when $ V_{be} < 0.65V $, $ I_c $ is very small and when $ V_{be} > 0.65V $, $ I_c $ is increase significantly. Therefore, We can simply consider that when $ V_{be} > 0.65V$ , transistor is on.
+After running DC sweep command on $ V4 $ in circuit of Figure \ref{fig:singletransistorcircuit}, We can get the curve of Figure \ref{fig:VbeandIccurve}. This illustrate that when $ V_be = 657.7 mV $, $ I_e = 2 mA $.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6]{"../Photo/Chap1/Re model"}\\[0.5cm]
+	\includegraphics[scale=0.8]{"../Photo/Chap1/Re model data"}
+	\caption{Re model}
+	\label{fig:Re model}
+\end{figure}
+
+If we zoom in Figure \ref{fig:VbeandIccurve} like shown in Figure \ref{fig:Re model}, the relationship between $ V_{be} $ and $ I_e $ is linear which is same as resistor and we called $ R_e $.Then we can get its value with
+\[ R_e = \frac{dx}{dy} = \frac{143.472u}{10.66u} = 13.459 \Omega\]
+Because we know $ I_e = 2mA $, 
+\[ Re = \frac{V}{I_e} = \frac{V}{2mA}=13.459\Omega\]
+\[ V = 2mA \times 13.459 \approxeq 26mV \] 
+Therefore,we can calculate $ R_{e} $ with $ I_e $ in future using
+\begin{equation}
+	R_{e} = \frac{26 mV}{I_{e}}
+\end{equation}
 
 
 \section{Limit current gain} 
