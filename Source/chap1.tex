@@ -11,24 +11,15 @@ Figure \ref{fig:singletransistorcircuit} shows the basic NPN bipolar junction tr
 
 \end{figure}
 
- We can get transistor operating state from simulation result as Table \ref{tab:DC operating point analysis result}. It's obvious that $I_C$ and $I_E$ is proximately 200 times greater than $I_B$ which is the main function of transistor.
+ We can get transistor operating state from simulation result as Figure \ref{fig:single transistor circuit data tablet}. It's obvious that $I_C$ and $I_E$ is proximately 200 times greater than $I_B$ which is the main function of transistor.
 
-\begin{table}[h]
-	\centering 
-	
-	\begin{tabular} { >{\columncolor{mycolor} \centering}m{3cm}  | >{\centering\arraybackslash }m{3cm}}
-		\hline 
-		$I_B$ & $9.09789\mu$ \\ 
-		\hline 
-		$I_C$ & $2.02293m$ \\  
-		\hline 
-		$I_E$ & $-2.03003m$ \\  
-		\hline 		
-	\end{tabular}  
-	
-	\caption{DC operating point analysis result} 
-	\label{tab:DC operating point analysis result}
-\end{table}
+ \begin{figure}[htbp]
+ 	\centering
+ 	\includegraphics[scale=1]{"../Photo/Chap1/single transistor circuit data table"}
+ 	\caption{Single transistor circuit simulation data}
+ 	\label{fig:single transistor circuit data tablet}
+ 	
+ \end{figure}
 
  Equation \ref{equ:betedefinition} defines $\beta$ which is the most important parameter of transistor.  
 \begin{equation}
@@ -88,7 +79,7 @@ A_V \triangleq \frac{ V_{out}} { V_{in}} \approx -\frac{R_C}{R_E}
 \begin{figure}[htbp]
 \centering
 \includegraphics[scale=0.5]{"../Photo/Chap1/basic transistor ciruit output wave"}\\[0.5cm]
-\includegraphics[scale=0.8]{"../Photo/Chap1/basic transistor ciruit output cursor data"}
+\includegraphics[scale=1]{"../Photo/Chap1/basic transistor ciruit output cursor data"}
 \caption{Output of the circuit in Figure \ref{fig:basictransistorcircuitwithRcandRe} }
 \label{fig:basictransistorciruitoutput}
 \end{figure}
