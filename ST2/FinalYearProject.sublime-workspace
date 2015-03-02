@@ -75,7 +75,7 @@
 			"file": "/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
 			"settings":
 			{
-				"buffer_size": 5427,
+				"buffer_size": 5426,
 				"line_ending": "Windows"
 			}
 		},
@@ -93,6 +93,14 @@
 			{
 				"buffer_size": 13858,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Project/Github/Fianl-Year-Project/Source/main.tex",
+			"settings":
+			{
+				"buffer_size": 610,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -168,6 +176,7 @@
 	},
 	"file_history":
 	[
+		"/D/Project/product development assignment 1/main.tex",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
 		"/D/Project/Github/Fianl-Year-Project/ST2/FinalYearProject.sublime-workspace",
 		"/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
@@ -178,7 +187,6 @@
 		"/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
 		"/D/Project/Github/Fianl-Year-Project/ST2/FinalYearProject.sublime-project",
 		"/D/Project/product development assignment 1/reference.bib",
-		"/D/Project/product development assignment 1/main.tex",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/README.markdown",
 		"/C/Users/Junyang/Desktop/test.tex",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
@@ -251,24 +259,25 @@
 					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
 					"settings":
 					{
-						"buffer_size": 5427,
+						"buffer_size": 5426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3133,
-								3133
+								2837,
+								2837
 							]
 						],
 						"settings":
 						{
 							"keep focus": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 969.0,
+						"translation.y": 816.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -323,6 +332,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 3690.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Project/Github/Fianl-Year-Project/Source/main.tex",
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -410,6 +445,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 284.0,
+	"side_bar_width": 153.0,
 	"status_bar_visible": true
 }
