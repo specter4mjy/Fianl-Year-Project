@@ -52,7 +52,8 @@ If we zoom in Figure \ref{fig:VbeandIccurve} like shown in Figure \ref{fig:Re mo
 \[ R_e = \frac{dx}{dy} = \frac{143.472u}{10.66u} = 13.459 \Omega\]
 Because we know $ I_e = 2mA $, 
 \[ Re = \frac{V}{I_e} = \frac{V}{2mA}=13.459\Omega\]
-\[ V = 2mA \times 13.459 \approxeq 26mV \] 
+Thermal voltage is
+\[ V_T = 2mA \times 13.459 \approxeq 26mV \] 
 Therefore,we can calculate $ R_{e} $ with $ I_e $ in future using
 \begin{equation}
 	R_{e} = \frac{26 mV}{I_{e}}
@@ -71,24 +72,24 @@ If we run DC sweep on V3 and we can get a curve like Figure~\ref{fig: DC sweep c
 	\label{fig: DC sweep curve}
 \end{figure}
 
-When we zoom in the curve and We can find that it's almost linear like Figure~\ref{fig: Ro model}. It means that there is an equivalent resistor cross between collector and emiter terminal ie.$R_o$.
+In Figure~\ref{fig: Ro model}, we can see the curve is almost linear when V3 is greater than 100mV. It means that there is an equivalent resistor cross between collector and emiter terminal ie.$R_o$.
 
-\[ R_o= \frac{\Delta V}{\Delta I}= \frac{404.7665 \mu}{10.1598 n} \approx 39.84\times10^3  \Omega \] 
+\[ R_o= \frac{\Delta V}{\Delta I}= \frac{697.8297m}{18.9471\mu} \approx 36.83\times10^3  \Omega \] 
 
-Because $I_e = 2mA $,
+Because $I_e = 2mA $, Early voltage is
 
-\[ V = 2mA \times 39.84\times10^3 \Omega=  79.68 \approx 80 \]
+\[ V_A = 2mA \times 36.83\times10^3 \Omega=  73.66 \approx 75 \]
 
 Therefore, We can calculate $R_o$ using 
 \begin{equation}
-	R_o = \frac{80}{I_e} 
+	R_o = \frac{75}{I_e} 
 \end{equation}
 
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[scale=0.6]{"../Photo/Chap1/DC sweep curve"}\\[0.5cm]
-	\includegraphics[scale=0.8]{"../Photo/Chap1/DC sweep data"}
+	\includegraphics[scale=0.6]{"../Photo/Chap1/Ro model"}\\[0.5cm]
+	\includegraphics[scale=0.8]{"../Photo/Chap1/Ro model data"}
 	\caption{Ro model }
 	\label{fig: Ro model}
 \end{figure}

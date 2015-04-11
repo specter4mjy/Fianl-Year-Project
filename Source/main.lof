@@ -10,10 +10,12 @@
 \contentsline {figure}{\numberline {1.9}{\ignorespaces Add voltage divider and capacitors }}{8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces simple negative feedback system}}{9}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Implement negative feedback circuit with Op-amp}}{10}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Op-amp feedback simulation result curve}}{10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Implement negative feedback circuit with transistor}}{11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces transistor feedback circuit simulation result}}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Feedback begin}}{10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Feedback begin}}{10}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Implement negative feedback circuit with Op-amp}}{10}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Op-amp feedback simulation result curve}}{11}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Implement negative feedback circuit with transistor}}{12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces transistor feedback circuit simulation result}}{12}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces single current source circuit}}{13}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces single current source circuit simulation result}}{14}

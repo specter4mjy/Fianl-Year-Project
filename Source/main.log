@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.8)  2 MAR 2015 12:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.8)  9 MAR 2015 12:47
 entering extended mode
 **D:/Project/Github/Fianl-Year-Project/Source/main.tex
 (D:/Project/Github/Fianl-Year-Project/Source/main.tex
@@ -146,8 +146,11 @@ Package geometry Warning: Over-specification in `v'-direction.
 (D:\Project\Github\Fianl-Year-Project\Source\main.aux
 (D:\Project\Github\Fianl-Year-Project\Source\cover.aux)
 (D:\Project\Github\Fianl-Year-Project\Source\chap1.aux)
-(D:\Project\Github\Fianl-Year-Project\Source\chap2.aux)
-(D:\Project\Github\Fianl-Year-Project\Source\chap3.aux)
+(D:\Project\Github\Fianl-Year-Project\Source\chap2.aux
+
+LaTeX Warning: Label `fig:Feedback begin' multiply defined.
+
+) (D:\Project\Github\Fianl-Year-Project\Source\chap3.aux)
 (D:\Project\Github\Fianl-Year-Project\Source\chap4.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -306,28 +309,27 @@ File: "../Photo/Chap1/DC sweep on Batterty".png Graphic file (type png)
 
 <use "../Photo/Chap1/DC sweep on Batterty".png>
 Package pdftex.def Info: "../Photo/Chap1/DC sweep on Batterty".png used on inpu
-t line 69.
+t line 70.
 (pdftex.def)             Requested size: 306.24648pt x 154.4783pt.
  [4 <D:/Project/Github/Fianl-Year-Project/Photo/Chap1/Ie is 2 mA Vbe is 657mV.p
 ng> <D:/Project/Github/Fianl-Year-Project/Photo/Chap1/Ie is 2 mA Vbe is 657mV d
 ata.png>] [5 <D:/Project/Github/Fianl-Year-Project/Photo/Chap1/Re model.png> <D
 :/Project/Github/Fianl-Year-Project/Photo/Chap1/Re model data.png> <D:/Project/
 Github/Fianl-Year-Project/Photo/Chap1/DC sweep on Batterty.png>]
-<"../Photo/Chap1/DC sweep curve".png, id=44, 510.40688pt x 257.46187pt>
-File: "../Photo/Chap1/DC sweep curve".png Graphic file (type png)
+<"../Photo/Chap1/Ro model".png, id=44, 510.40688pt x 258.21469pt>
+File: "../Photo/Chap1/Ro model".png Graphic file (type png)
 
-<use "../Photo/Chap1/DC sweep curve".png>
-Package pdftex.def Info: "../Photo/Chap1/DC sweep curve".png used on input line
- 90.
-(pdftex.def)             Requested size: 306.24648pt x 154.4783pt.
+<use "../Photo/Chap1/Ro model".png>
+Package pdftex.def Info: "../Photo/Chap1/Ro model".png used on input line 91.
+(pdftex.def)             Requested size: 306.24648pt x 154.93pt.
 
-<"../Photo/Chap1/DC sweep data".png, id=45, 143.03438pt x 126.4725pt>
-File: "../Photo/Chap1/DC sweep data".png Graphic file (type png)
+<"../Photo/Chap1/Ro model data".png, id=45, 141.52875pt x 124.96687pt>
+File: "../Photo/Chap1/Ro model data".png Graphic file (type png)
 
-<use "../Photo/Chap1/DC sweep data".png>
-Package pdftex.def Info: "../Photo/Chap1/DC sweep data".png used on input line 
-91.
-(pdftex.def)             Requested size: 114.42764pt x 101.17813pt.
+<use "../Photo/Chap1/Ro model data".png>
+Package pdftex.def Info: "../Photo/Chap1/Ro model data".png used on input line 
+92.
+(pdftex.def)             Requested size: 113.22314pt x 99.97363pt.
 
 <"../Photo/Chap1/basic transistor circuit with Rc and Re".png, id=46, 282.30469
 pt x 321.45094pt>
@@ -336,19 +338,18 @@ File: "../Photo/Chap1/basic transistor circuit with Rc and Re".png Graphic file
 
 <use "../Photo/Chap1/basic transistor circuit with Rc and Re".png>
 Package pdftex.def Info: "../Photo/Chap1/basic transistor circuit with Rc and R
-e".png used on input line 106.
+e".png used on input line 107.
 (pdftex.def)             Requested size: 169.38411pt x 192.87204pt.
- [6 <D:/Project/Github/Fianl-Year-Project/Photo/Chap1/DC sweep curve.png> <D:/P
-roject/Github/Fianl-Year-Project/Photo/Chap1/DC sweep data.png> <D:/Project/Git
-hub/Fianl-Year-Project/Photo/Chap1/basic transistor circuit with Rc and Re.png>
-]
+ [6 <D:/Project/Github/Fianl-Year-Project/Photo/Chap1/Ro model.png> <D:/Project
+/Github/Fianl-Year-Project/Photo/Chap1/Ro model data.png> <D:/Project/Github/Fi
+anl-Year-Project/Photo/Chap1/basic transistor circuit with Rc and Re.png>]
 <"../Photo/Chap1/basic transistor ciruit output wave".png, id=54, 569.87906pt x
  303.38344pt>
 File: "../Photo/Chap1/basic transistor ciruit output wave".png Graphic file (ty
 pe png)
  <use "../Photo/Chap1/basic transistor ciruit output wave".png>
 Package pdftex.def Info: "../Photo/Chap1/basic transistor ciruit output wave".p
-ng used on input line 121.
+ng used on input line 122.
 (pdftex.def)             Requested size: 284.93883pt x 151.69135pt.
 
 <"../Photo/Chap1/basic transistor ciruit output cursor data".png, id=55, 224.33
@@ -358,7 +359,7 @@ ile (type png)
 
 <use "../Photo/Chap1/basic transistor ciruit output cursor data".png>
 Package pdftex.def Info: "../Photo/Chap1/basic transistor ciruit output cursor 
-data".png used on input line 122.
+data".png used on input line 123.
 (pdftex.def)             Requested size: 224.33757pt x 124.96657pt.
 
 <"../Photo/Chap1/add voltage divider".png, id=56, 441.14813pt x 249.93375pt>
@@ -366,7 +367,7 @@ File: "../Photo/Chap1/add voltage divider".png Graphic file (type png)
 
 <use "../Photo/Chap1/add voltage divider".png>
 Package pdftex.def Info: "../Photo/Chap1/add voltage divider".png used on input
- line 135.
+ line 136.
 (pdftex.def)             Requested size: 264.69092pt x 149.9614pt.
 ) [7 <D:/Project/Github/Fianl-Year-Project/Photo/Chap1/basic transistor ciruit 
 output wave.png> <D:/Project/Github/Fianl-Year-Project/Photo/Chap1/basic transi
@@ -382,76 +383,92 @@ Package pdftex.def Info: "../Photo/Chap2/Feedback system".png used on input lin
 e 7.
 (pdftex.def)             Requested size: 268.75612pt x 119.24641pt.
 
-<"../Photo/Chap2/Op-amp feedback".png, id=68, 374.14781pt x 270.25969pt>
+<"../Photo/Chap2/Feed_back_ini".png, id=68, 594.72188pt x 280.79906pt>
+File: "../Photo/Chap2/Feed_back_ini".png Graphic file (type png)
+
+<use "../Photo/Chap2/Feed_back_ini".png>
+Package pdftex.def Info: "../Photo/Chap2/Feed_back_ini".png used on input line 
+20.
+(pdftex.def)             Requested size: 356.83588pt x 168.48073pt.
+
+<"../Photo/Chap2/Feedback_ini_data".png, id=69, 510.40688pt x 257.46187pt>
+File: "../Photo/Chap2/Feedback_ini_data".png Graphic file (type png)
+
+<use "../Photo/Chap2/Feedback_ini_data".png>
+Package pdftex.def Info: "../Photo/Chap2/Feedback_ini_data".png used on input l
+ine 27.
+(pdftex.def)             Requested size: 306.24648pt x 154.4783pt.
+
+<"../Photo/Chap2/Op-amp feedback".png, id=70, 374.14781pt x 270.25969pt>
 File: "../Photo/Chap2/Op-amp feedback".png Graphic file (type png)
 
 <use "../Photo/Chap2/Op-amp feedback".png>
 Package pdftex.def Info: "../Photo/Chap2/Op-amp feedback".png used on input lin
-e 21.
+e 37.
 (pdftex.def)             Requested size: 224.4904pt x 162.15706pt.
 
-<"../Photo/Chap2/Op-amp feedback simulation wave".png, id=69, 544.28343pt x 318
+<"../Photo/Chap2/Op-amp feedback simulation wave".png, id=71, 544.28343pt x 318
 .43968pt>
 File: "../Photo/Chap2/Op-amp feedback simulation wave".png Graphic file (type p
 ng)
  <use "../Photo/Chap2/Op-amp feedback simulation wave".png>
 Package pdftex.def Info: "../Photo/Chap2/Op-amp feedback simulation wave".png u
-sed on input line 34.
+sed on input line 50.
 (pdftex.def)             Requested size: 326.57257pt x 191.06528pt.
 
-<"../Photo/Chap2/Op-amp feedback simulation cursor data".png, id=70, 219.82124p
+<"../Photo/Chap2/Op-amp feedback simulation cursor data".png, id=72, 219.82124p
 t x 125.71968pt>
 File: "../Photo/Chap2/Op-amp feedback simulation cursor data".png Graphic file 
 (type png)
 
 <use "../Photo/Chap2/Op-amp feedback simulation cursor data".png>
 Package pdftex.def Info: "../Photo/Chap2/Op-amp feedback simulation cursor data
-".png used on input line 35.
+".png used on input line 51.
 (pdftex.def)             Requested size: 219.8207pt x 125.71936pt.
-
-<"../Photo/Chap2/transistor feedback".png, id=71, 466.74374pt x 277.78781pt>
-File: "../Photo/Chap2/transistor feedback".png Graphic file (type png)
-
-<use "../Photo/Chap2/transistor feedback".png>
-Package pdftex.def Info: "../Photo/Chap2/transistor feedback".png used on input
- line 51.
-(pdftex.def)             Requested size: 280.0484pt x 166.67395pt.
  [9
 
 
 
  <D:/Project/Github/Fianl-Year-Project/Photo/Chap2/Feedback system.png>] [10 <D
-:/Project/Github/Fianl-Year-Project/Photo/Chap2/Op-amp feedback.png> <D:/Projec
-t/Github/Fianl-Year-Project/Photo/Chap2/Op-amp feedback simulation wave.png> <D
-:/Project/Github/Fianl-Year-Project/Photo/Chap2/Op-amp feedback simulation curs
-or data.png>]
-<"../Photo/Chap2/transistor feedback simulation wave".png, id=82, 575.14874pt x
+:/Project/Github/Fianl-Year-Project/Photo/Chap2/Feed_back_ini.png> <D:/Project/
+Github/Fianl-Year-Project/Photo/Chap2/Feedback_ini_data.png> <D:/Project/Github
+/Fianl-Year-Project/Photo/Chap2/Op-amp feedback.png>]
+<"../Photo/Chap2/transistor feedback".png, id=83, 466.74374pt x 277.78781pt>
+File: "../Photo/Chap2/transistor feedback".png Graphic file (type png)
+
+<use "../Photo/Chap2/transistor feedback".png>
+Package pdftex.def Info: "../Photo/Chap2/transistor feedback".png used on input
+ line 67.
+(pdftex.def)             Requested size: 280.0484pt x 166.67395pt.
+
+<"../Photo/Chap2/transistor feedback simulation wave".png, id=84, 575.14874pt x
  315.42844pt>
 File: "../Photo/Chap2/transistor feedback simulation wave".png Graphic file (ty
 pe png)
  <use "../Photo/Chap2/transistor feedback simulation wave".png>
 Package pdftex.def Info: "../Photo/Chap2/transistor feedback simulation wave".p
-ng used on input line 61.
+ng used on input line 77.
 (pdftex.def)             Requested size: 345.0919pt x 189.25851pt.
 
-<"../Photo/Chap2/transistor feedback simulation cursor data".png, id=83, 224.33
+<"../Photo/Chap2/transistor feedback simulation cursor data".png, id=85, 224.33
 812pt x 124.96687pt>
 File: "../Photo/Chap2/transistor feedback simulation cursor data".png Graphic f
 ile (type png)
 
 <use "../Photo/Chap2/transistor feedback simulation cursor data".png>
 Package pdftex.def Info: "../Photo/Chap2/transistor feedback simulation cursor 
-data".png used on input line 62.
+data".png used on input line 78.
 (pdftex.def)             Requested size: 224.33757pt x 124.96657pt.
-) [11 <D:/Project/Github/Fianl-Year-Project/Photo/Chap2/transistor feedback.png
->]
-[12 <D:/Project/Github/Fianl-Year-Project/Photo/Chap2/transistor feedback simul
-ation wave.png> <D:/Project/Github/Fianl-Year-Project/Photo/Chap2/transistor fe
-edback simulation cursor data.png>]
+) [11 <D:/Project/Github/Fianl-Year-Project/Photo/Chap2/Op-amp feedback simulat
+ion wave.png> <D:/Project/Github/Fianl-Year-Project/Photo/Chap2/Op-amp feedback
+ simulation cursor data.png>] [12 <D:/Project/Github/Fianl-Year-Project/Photo/C
+hap2/transistor feedback.png> <D:/Project/Github/Fianl-Year-Project/Photo/Chap2
+/transistor feedback simulation wave.png> <D:/Project/Github/Fianl-Year-Project
+/Photo/Chap2/transistor feedback simulation cursor data.png>]
 (D:\Project\Github\Fianl-Year-Project\Source\chap3.tex
 Chapter 3.
 
-<"../Photo/Chap3/single current source".png, id=95, 316.18124pt x 272.51813pt>
+<"../Photo/Chap3/single current source".png, id=99, 316.18124pt x 272.51813pt>
 File: "../Photo/Chap3/single current source".png Graphic file (type png)
 
 <use "../Photo/Chap3/single current source".png>
@@ -459,8 +476,8 @@ Package pdftex.def Info: "../Photo/Chap3/single current source".png used on inp
 ut line 9.
 (pdftex.def)             Requested size: 189.7102pt x 163.51213pt.
 
-<"../Photo/Chap3/single current source simulation result".png, id=96, 289.83281
-pt x 79.04532pt>
+<"../Photo/Chap3/single current source simulation result".png, id=100, 289.8328
+1pt x 79.04532pt>
 File: "../Photo/Chap3/single current source simulation result".png Graphic file
  (type png)
 
@@ -473,7 +490,7 @@ t".png used on input line 24.
 
 
  <D:/Project/Github/Fianl-Year-Project/Photo/Chap3/single current source.png>]
-<"../Photo/Chap3/add cuurent source".png, id=102, 534.49687pt x 462.22687pt>
+<"../Photo/Chap3/add cuurent source".png, id=106, 534.49687pt x 462.22687pt>
 File: "../Photo/Chap3/add cuurent source".png Graphic file (type png)
 
 <use "../Photo/Chap3/add cuurent source".png>
@@ -485,7 +502,7 @@ imulation result.png> <D:/Project/Github/Fianl-Year-Project/Photo/Chap3/add cuu
 rent source.png>]
 (D:\Project\Github\Fianl-Year-Project\Source\chap4.tex
 Chapter 4.
-<"../Photo/Chap4/Class A output stage".png, id=108, 642.14906pt x 463.7325pt>
+<"../Photo/Chap4/Class A output stage".png, id=112, 642.14906pt x 463.7325pt>
 File: "../Photo/Chap4/Class A output stage".png Graphic file (type png)
 
 <use "../Photo/Chap4/Class A output stage".png>
@@ -493,7 +510,7 @@ Package pdftex.def Info: "../Photo/Chap4/Class A output stage".png used on inpu
 t line 10.
 (pdftex.def)             Requested size: 385.2924pt x 278.24164pt.
 
-<"../Photo/Chap4/Class A simulation result".png, id=109, 510.40688pt x 237.1359
+<"../Photo/Chap4/Class A simulation result".png, id=113, 510.40688pt x 237.1359
 4pt>
 File: "../Photo/Chap4/Class A simulation result".png Graphic file (type png)
  <use "../Photo/Chap4/Class A simulation result".png>
@@ -501,7 +518,7 @@ Package pdftex.def Info: "../Photo/Chap4/Class A simulation result".png used on
  input line 18.
 (pdftex.def)             Requested size: 255.2028pt x 118.56767pt.
 
-<"../Photo/Chap4/Class A DC operating current".png, id=110, 289.08pt x 60.225pt
+<"../Photo/Chap4/Class A DC operating current".png, id=114, 289.08pt x 60.225pt
 >
 File: "../Photo/Chap4/Class A DC operating current".png Graphic file (type png)
 
@@ -514,14 +531,14 @@ Package pdftex.def Info: "../Photo/Chap4/Class A DC operating current".png used
 
 
  <D:/Project/Github/Fianl-Year-Project/Photo/Chap4/Class A output stage.png>]
-<"../Photo/Chap4/Class AB output stage".png, id=115, 624.83438pt x 461.47406pt>
+<"../Photo/Chap4/Class AB output stage".png, id=119, 624.83438pt x 461.47406pt>
 File: "../Photo/Chap4/Class AB output stage".png Graphic file (type png)
 <use "../Photo/Chap4/Class AB output stage".png>
 Package pdftex.def Info: "../Photo/Chap4/Class AB output stage".png used on inp
 ut line 41.
 (pdftex.def)             Requested size: 374.90352pt x 276.88655pt.
 
-<"../Photo/Chap4/Class AB output stage simlation result".png, id=116, 481.8pt x
+<"../Photo/Chap4/Class AB output stage simlation result".png, id=120, 481.8pt x
  292.84406pt>
 File: "../Photo/Chap4/Class AB output stage simlation result".png Graphic file 
 (type png)
@@ -531,7 +548,7 @@ Package pdftex.def Info: "../Photo/Chap4/Class AB output stage simlation result
 ".png used on input line 50.
 (pdftex.def)             Requested size: 289.08221pt x 175.70778pt.
 
-<"../Photo/Chap4/Class AB output stage DC operatingh current data".png, id=117,
+<"../Photo/Chap4/Class AB output stage DC operatingh current data".png, id=121,
  305.64188pt x 79.79813pt>
 File: "../Photo/Chap4/Class AB output stage DC operatingh current data".png Gra
 phic file (type png)
@@ -552,31 +569,34 @@ Class AB output stage DC operatingh current data.png>]
 (D:\Project\Github\Fianl-Year-Project\Source\chap1.aux)
 (D:\Project\Github\Fianl-Year-Project\Source\chap2.aux)
 (D:\Project\Github\Fianl-Year-Project\Source\chap3.aux)
-(D:\Project\Github\Fianl-Year-Project\Source\chap4.aux)) ) 
+(D:\Project\Github\Fianl-Year-Project\Source\chap4.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2767 strings out of 493921
- 43297 string characters out of 3142064
- 98684 words of memory out of 3000000
- 5974 multiletter control sequences out of 15000+200000
+ 2778 strings out of 493921
+ 43651 string characters out of 3142064
+ 98734 words of memory out of 3000000
+ 5983 multiletter control sequences out of 15000+200000
  12056 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,7n,35p,596b,228s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Software/Office/L
-atex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Software/Off
-ice/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Softwar
-e/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Sof
-tware/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:
-/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm/cmr17
-.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm/c
-mr6.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/c
-m/cmr8.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/am
-sfonts/symbols/msam10.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1
-/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (18 pages, 474242 bytes).
+<D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/
+type1/public/amsfonts/cm/cmr8.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Software/Office/Latex/Miktex 2.9.510
+5/fonts/type1/public/amsfonts/symbols/msam10.pfb><D:/Software/Office/Latex/Mikt
+ex 2.9.5105/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (18 pages, 559809 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 168 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

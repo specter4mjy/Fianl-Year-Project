@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"Fe",
+				"Feedback"
+			],
+			[
+				"sec",
+				"section	Section"
+			],
+			[
 				"equi",
 				"equation"
 			],
@@ -72,34 +80,21 @@
 	"buffers":
 	[
 		{
-			"file": "/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
+			"contents": "",
+			"file": "/F/00IC-XDS100V3/赠送的资料下载地址.txt",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 5426,
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
+			"file": "/D/Project/LEARNING_CADENCE/CAPTURE_CIS/FULLADD.BOM",
 			"settings":
 			{
-				"buffer_size": 2734,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
-			"settings":
-			{
-				"buffer_size": 13858,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/Project/Github/Fianl-Year-Project/Source/main.tex",
-			"settings":
-			{
-				"buffer_size": 610,
+				"buffer_size": 280,
 				"line_ending": "Windows"
 			}
 		}
@@ -176,15 +171,18 @@
 	},
 	"file_history":
 	[
+		"/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
+		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+		"/D/Project/Github/Fianl-Year-Project/Source/main.tex",
+		"/D/Project/Github/Fianl-Year-Project/Photo/Chap2/Feed_back_ini.png",
+		"/D/Project/Github/Fianl-Year-Project/Photo/Chap2/Feed back ini after.png",
 		"/D/Project/product development assignment 1/main.tex",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXTools.sublime-settings",
 		"/D/Project/Github/Fianl-Year-Project/ST2/FinalYearProject.sublime-workspace",
-		"/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
 		"/D/Project/Github/Fianl-Year-Project/Source/chap3.tex",
 		"/D/Project/Github/Fianl-Year-Project/Source/chap4.tex",
 		"/D/Project/Github/Fianl-Year-Project/Source/cover.tex",
-		"/D/Project/Github/Fianl-Year-Project/Source/main.tex",
-		"/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
 		"/D/Project/Github/Fianl-Year-Project/ST2/FinalYearProject.sublime-project",
 		"/D/Project/product development assignment 1/reference.bib",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/README.markdown",
@@ -194,7 +192,6 @@
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/User/LaTeXing.sublime-settings",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXing/Default (Windows).sublime-keymap",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
 		"/D/Project/Python learning/01_heloworld.py",
 		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -217,6 +214,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dd",
 			"equation",
 			"Figure",
 			"graph",
@@ -251,57 +249,28 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
+					"file": "/F/00IC-XDS100V3/赠送的资料下载地址.txt",
 					"settings":
 					{
-						"buffer_size": 5426,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2837,
-								2837
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"keep focus": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 816.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
-					"settings":
-					{
-						"buffer_size": 2734,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1371,
-								1376
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -310,54 +279,27 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+					"buffer": 1,
+					"file": "/D/Project/LEARNING_CADENCE/CAPTURE_CIS/FULLADD.BOM",
 					"settings":
 					{
-						"buffer_size": 13858,
+						"buffer_size": 280,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12343,
-								12343
+								255,
+								255
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3690.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/Project/Github/Fianl-Year-Project/Source/main.tex",
-					"settings":
-					{
-						"buffer_size": 610,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -371,7 +313,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -445,6 +387,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 153.0,
+	"side_bar_width": 201.0,
 	"status_bar_visible": true
 }
