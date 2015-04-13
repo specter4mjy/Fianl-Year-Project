@@ -12,35 +12,23 @@
 Figure \ref{fig:Feedback system} show a simple negative feedback system in which A is ideal amplifier and B is feedback network. 
 
 \[  \frac{V_{out}}{V_{in}} = B  \] 
+ 
 
-\section{Feedback example}
 
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[scale=0.6]{"../Photo/Chap2/Feed_back_ini"}
-	\caption{Feedback begin}
-	\label{fig:Feedback begin}
-\end{figure}
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[scale=0.6]{"../Photo/Chap2/Feedback_ini_data"}
-	\caption{Feedback begin}
-	\label{fig:Feedback begin}
-\end{figure}
 
 \section{Implement Using Op-amp}
 
+In Figure \ref{fig:Op-amp feedback}, an Op-amp 741 is used to implement the negative feedback circuit in Figure \ref{fig:Feedback system}.
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[scale=0.6]{"../Photo/Chap2/Op-amp feedback"}
+	\includegraphics[scale=0.7]{"../Photo/Chap2/Op-amp feedback"}
 	\caption{Implement negative feedback circuit with Op-amp}
 	\label{fig:Op-amp feedback}
 \end{figure}
 
 
-In Figure \ref{fig:Op-amp feedback}, an Op-amp 741 is used to implement the negative feedback circuit in Figure \ref{fig:Feedback system}.
+
 
 741 is part A while R1 and R2 form feedback network. 
 \[ \frac{V_{out}}{V_{in}} = B = \frac{R1 + R2}{R2} = \frac{10K + 1K}{1K} = 11 \]
@@ -58,13 +46,64 @@ From simulation result in Figure \ref{fig:Op-amp  feedback simulation result },
  
 Obviously, the simulation result is very close to our estimation.
 
+\section{Find the function of Feedback }
+
+At the beginning, our circuit in Figure~\ref{fig:Feedback init} used is same as the circuit in Figure \ref{fig:Op-amp feedback}, the out put signal is a smooth Sin wave shown as Figure~\ref{fig:Feedback init data}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.65]{"../Photo/Chap2/Feed_back_ini"}
+	\caption{Feedback initail circuit  }
+	\label{fig:Feedback init}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap2/Feedback_ini_data"}
+	\caption{Feedback initail circuit output}
+	\label{fig:Feedback init data}
+\end{figure}
+
+Next we introduce some distortion to the output signal using  pull-push output part. As expect, we could obviously observe crossover distortion for output wave shown in Figure~\ref{fig:Feedback before data}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap2/Feed_back_ini_before"}
+	\caption{Feedback circuit adding pull-push part}
+	\label{fig:Feedback before}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap2/Feedback_ini_before_data"}
+	\caption{Feedback circuit adding pull-push part output}
+	\label{fig:Feedback before data}
+\end{figure}
+
+Next step, we move feedback point from Pin 5 of Op-Amp U6 to the emiter teminal of transister Q11 as show in Figure~\ref{fig:Feedback after}. From Figure~\ref{fig:Feedback after data}, there's great improvement and we can hardly see any distortion of output signal. It proved that feedback is very useful in aspect of eliminating output distortion.
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6]{"../Photo/Chap2/Feed_back_ini_after"}
+	\caption{Feedback circuit after moving feedback point}
+	\label{fig:Feedback after}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6]{"../Photo/Chap2/Feedback_ini_after_data"}
+	\caption{Feedback circuit after moving feedback point output}
+	\label{fig:Feedback after data}
+\end{figure}
+
 
 \section{Implement Using transistor}
 
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[scale=0.6]{"../Photo/Chap2/transistor feedback"}
+\includegraphics[scale=0.7]{"../Photo/Chap2/transistor feedback"}
 \caption{Implement negative feedback circuit with transistor}
 \label{fig:transistorfeedback}
 \end{figure}

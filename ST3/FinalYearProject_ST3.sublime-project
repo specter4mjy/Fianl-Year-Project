@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "D:\\Project\\Github\\Fianl-Year-Project",
+			"folder_exclude_patterns": ["Project"],
+			"file_exclude_patterns":["*.aux","*.log","*.lof","*.lot","*.pdf","*.toc","*.gz"]
+		}
+	]
+}
