@@ -20,17 +20,51 @@ My final circuit is shown in Figure~\ref{fig:final schematic} which contains fou
 This part used to amplify input signal voltage, this means the output voltage of this part is hundreds times of input signal.
 
 
-In this part, NPN transistor Q1 and PNP transistor Q2 are key component which provide the capability of amplifying signal voltage. Resister R14 and R3 consist of voltage diveder which set the DC operating point. Resistor R2 and capacitor C5 consist of a low pass filter which eliminate noise in DC power.
+In this part shown in Figure~\ref{fig:voltage amplifier part}, NPN transistor Q1 and PNP transistor Q2 are key component which provide the capability of amplifying signal voltage. Resister R14 and R3 consist of voltage diveder which set the DC operating point. Resistor R2 and capacitor C5 consist of a low pass filter which eliminate noise in DC power.
 
-Capacitor C3 used to makesure amplifier DC voltage gain is 1 and only amplify signal AC part.
+Capacitor C3 used to makesure amplifier DC voltage gain is 1 which means circuit only amplify signal AC part.
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap5/voltage amplifier part"}
+	\caption{voltage amplifier part }
+	\label{fig:voltage amplifier part}
+\end{figure}
 
 \subsection{Class AB output stage}  
 
+In this part shown in Figure~\ref{fig:Class AB outout stage}, Transistor Q4 and Q5 form a pull-push output satge which provide cuurent gain and increase drive capability.
 
+Resistor R10, R11 and NPN transistor Q6 form a Vbe multiplier which use to eliminate the crossover distortion.
+
+Resistor R12 abd R13 is used to limite current which flow through transistors. Because too much current flow could burn the transistors.
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap5/Class AB outout stage"}
+	\caption{Class AB outout stage}
+	\label{fig:Class AB outout stage}
+\end{figure}
 
 \subsection{Current source }  
+In this part shown in Figure~\ref{fig:Current source}, Current source consist of NPN transistor Q3, resistor R9, R8 and two diodes D1, D2.
+Resistor R8 used to set base current of transistor Q3.Resistor R6 determine the constant cuurent of this current source.
 
-
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap5/Current source"}
+	\caption{Current source}
+	\label{fig:Current source}
+\end{figure}
 
 \subsection{Negative feedback part} 
+In this part shown in Figure~\ref{fig:Negative feedback part}, Resistor R4 and R7 make up negative feedback part.They control this headphone amplifier voltage gain and keep output signal follows the input signal.
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.7]{"../Photo/Chap5/Negative feedback part"}
+	\caption{Negative feedback part}
+	\label{fig:Negative feedback part}
+\end{figure}

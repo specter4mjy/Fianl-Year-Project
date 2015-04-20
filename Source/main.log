@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.8)  13 APR 2015 02:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.8)  20 APR 2015 13:33
 entering extended mode
 **D:/Project/Github/Fianl-Year-Project/Source/main.tex
 (D:/Project/Github/Fianl-Year-Project/Source/main.tex
@@ -613,10 +613,45 @@ e 12.
 
 
 
- <D:/Project/Github/Fianl-Year-Project/Photo/Chap5/final schematic.png>]) [22]
+ <D:/Project/Github/Fianl-Year-Project/Photo/Chap5/final schematic.png>]
+<"../Photo/Chap5/voltage amplifier part".png, id=156, 335.75438pt x 352.31625pt
+>
+File: "../Photo/Chap5/voltage amplifier part".png Graphic file (type png)
+ <use "../Photo/Chap5/voltage amplifier part".png>
+Package pdftex.def Info: "../Photo/Chap5/voltage amplifier part".png used on in
+put line 29.
+(pdftex.def)             Requested size: 235.02646pt x 246.61969pt.
+
+<"../Photo/Chap5/Class AB outout stage".png, id=157, 399.74344pt x 371.88937pt>
+File: "../Photo/Chap5/Class AB outout stage".png Graphic file (type png)
+<use "../Photo/Chap5/Class AB outout stage".png>
+Package pdftex.def Info: "../Photo/Chap5/Class AB outout stage".png used on inp
+ut line 45.
+(pdftex.def)             Requested size: 279.81848pt x 260.32079pt.
+
+<"../Photo/Chap5/Current source".png, id=158, 359.84438pt x 335.00156pt>
+File: "../Photo/Chap5/Current source".png Graphic file (type png)
+
+<use "../Photo/Chap5/Current source".png>
+Package pdftex.def Info: "../Photo/Chap5/Current source".png used on input line
+ 56.
+(pdftex.def)             Requested size: 251.88934pt x 234.49948pt.
+
+<"../Photo/Chap5/Negative feedback part".png, id=159, 482.55281pt x 338.01282pt
+>
+File: "../Photo/Chap5/Negative feedback part".png Graphic file (type png)
+ <use "../Photo/Chap5/Negative feedback part".png>
+Package pdftex.def Info: "../Photo/Chap5/Negative feedback part".png used on in
+put line 67.
+(pdftex.def)             Requested size: 337.78465pt x 236.60735pt.
+ [22 <D:/Project/Github/Fianl-Year-Project/Photo/Chap5/voltage amplifier part.p
+ng>] [23 <D:/Project/Github/Fianl-Year-Project/Photo/Chap5/Class AB outout stag
+e.png> <D:/Project/Github/Fianl-Year-Project/Photo/Chap5/Current source.png>]) 
+[24 <D:/Project/Github/Fianl-Year-Project/Photo/Chap5/Negative feedback part.pn
+g>]
 (D:\Project\Github\Fianl-Year-Project\Source\chap6.tex
 Chapter 6.
-<"../Photo/Chap6/final PCB not rout".png, id=159, 435.12563pt x 435.12563pt>
+<"../Photo/Chap6/final PCB not rout".png, id=174, 435.12563pt x 435.12563pt>
 File: "../Photo/Chap6/final PCB not rout".png Graphic file (type png)
 
 <use "../Photo/Chap6/final PCB not rout".png>
@@ -624,7 +659,7 @@ Package pdftex.def Info: "../Photo/Chap6/final PCB not rout".png used on input
 line 9.
 (pdftex.def)             Requested size: 304.58586pt x 304.58586pt.
 
-<"../Photo/Chap6/final PCB all".png, id=160, 335.75438pt x 335.00156pt>
+<"../Photo/Chap6/final PCB all".png, id=175, 335.75438pt x 335.00156pt>
 File: "../Photo/Chap6/final PCB all".png Graphic file (type png)
 
 <use "../Photo/Chap6/final PCB all".png>
@@ -632,18 +667,18 @@ Package pdftex.def Info: "../Photo/Chap6/final PCB all".png used on input line
 18.
 (pdftex.def)             Requested size: 302.17615pt x 301.49861pt.
 
-<"../Photo/Chap6/final PCB 3D view".png, id=161, 539.76656pt x 539.01375pt>
+<"../Photo/Chap6/final PCB 3D view".png, id=176, 539.76656pt x 539.01375pt>
 File: "../Photo/Chap6/final PCB 3D view".png Graphic file (type png)
 
 <use "../Photo/Chap6/final PCB 3D view".png>
 Package pdftex.def Info: "../Photo/Chap6/final PCB 3D view".png used on input l
 ine 27.
 (pdftex.def)             Requested size: 323.86243pt x 323.41074pt.
-) [23
+) [25
 
 
 
- <D:/Project/Github/Fianl-Year-Project/Photo/Chap6/final PCB not rout.png>] [24
+ <D:/Project/Github/Fianl-Year-Project/Photo/Chap6/final PCB not rout.png>] [26
  <D:/Project/Github/Fianl-Year-Project/Photo/Chap6/final PCB all.png> <D:/Proje
 ct/Github/Fianl-Year-Project/Photo/Chap6/final PCB 3D view.png>]
 (D:\Project\Github\Fianl-Year-Project\Source\main.aux
@@ -655,10 +690,10 @@ ct/Github/Fianl-Year-Project/Photo/Chap6/final PCB 3D view.png>]
 (D:\Project\Github\Fianl-Year-Project\Source\chap5.aux)
 (D:\Project\Github\Fianl-Year-Project\Source\chap6.aux)) ) 
 Here is how much of TeX's memory you used:
- 2846 strings out of 493921
- 46165 string characters out of 3142064
- 100299 words of memory out of 3000000
- 6027 multiletter control sequences out of 15000+200000
+ 2870 strings out of 493921
+ 47099 string characters out of 3142064
+ 100343 words of memory out of 3000000
+ 6047 multiletter control sequences out of 15000+200000
  12363 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  41i,8n,35p,596b,230s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -675,9 +710,9 @@ m/cmr8.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/am
 sfonts/symbols/msam10.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (25 pages, 813615 bytes).
+Output written on main.pdf (27 pages, 839858 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
+ 221 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

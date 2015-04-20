@@ -29,11 +29,15 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Class A output stage simulation result}}{19}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Class A DC operating current simulation data}}{19}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Class AB output stage}}{20}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Class AV output stage simulation resut}}{20}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Class AB output stage simulation result}}{20}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Class AB output stage DC operating current}}{20}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic of final Design }}{21}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces voltage amplifier part }}{22}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Class AB outout stage}}{23}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Current source}}{23}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Negative feedback part}}{24}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Layout conponents }}{23}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Finsh autorout }}{24}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces PCB 3D view }}{24}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Layout conponents }}{25}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Finsh autorout }}{26}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces PCB 3D view }}{26}
