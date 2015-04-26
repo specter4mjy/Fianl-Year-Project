@@ -1,7 +1,7 @@
 \contentsline {chapter}{\numberline {1}Simple transistor circuit}{5}
 \contentsline {section}{\numberline {1.1}Transistor basic property}{5}
-\contentsline {section}{\numberline {1.2}Find $ R_e $ }{7}
-\contentsline {section}{\numberline {1.3}Find $R_o$}{8}
+\contentsline {section}{\numberline {1.2}Find $ R_e $ }{6}
+\contentsline {section}{\numberline {1.3}Find $R_o$}{7}
 \contentsline {section}{\numberline {1.4}Limit current gain}{8}
 \contentsline {section}{\numberline {1.5}Add voltage divider}{10}
 \contentsline {chapter}{\numberline {2}Negative Feedback}{12}
@@ -9,17 +9,22 @@
 \contentsline {section}{\numberline {2.2}Implement Using Op-amp}{12}
 \contentsline {section}{\numberline {2.3}Find the function of Feedback }{14}
 \contentsline {section}{\numberline {2.4}Implement Using transistor}{16}
-\contentsline {chapter}{\numberline {3}Current Source}{18}
-\contentsline {section}{\numberline {3.1}Single current source circuit}{18}
-\contentsline {section}{\numberline {3.2}Use current source to replace output resistor}{19}
-\contentsline {chapter}{\numberline {4}Output Stage}{20}
-\contentsline {section}{\numberline {4.1}Class A Output Stage}{20}
-\contentsline {section}{\numberline {4.2}Class AB Output Stage}{21}
-\contentsline {chapter}{\numberline {5}Final design}{23}
-\contentsline {section}{\numberline {5.1}Final schematic}{23}
-\contentsline {subsection}{\numberline {5.1.1}Voltage amplifier}{24}
-\contentsline {subsection}{\numberline {5.1.2}Class AB output stage}{24}
-\contentsline {subsection}{\numberline {5.1.3}Current source }{25}
+\contentsline {chapter}{\numberline {3}Current Source}{19}
+\contentsline {section}{\numberline {3.1}Single current source circuit}{19}
+\contentsline {section}{\numberline {3.2}Use current source to replace output resistor}{20}
+\contentsline {chapter}{\numberline {4}Output Stage}{21}
+\contentsline {section}{\numberline {4.1}Class A Output Stage}{21}
+\contentsline {section}{\numberline {4.2}Class AB Output Stage}{22}
+\contentsline {chapter}{\numberline {5}Final design}{24}
+\contentsline {section}{\numberline {5.1}Final schematic}{24}
+\contentsline {subsection}{\numberline {5.1.1}Voltage amplifier}{25}
+\contentsline {subsection}{\numberline {5.1.2}Class AB output stage}{25}
+\contentsline {subsection}{\numberline {5.1.3}Current source }{26}
 \contentsline {subsection}{\numberline {5.1.4}Negative feedback part}{26}
-\contentsline {chapter}{\numberline {6}PCB design}{27}
-\contentsline {section}{\numberline {6.1}Draw PCB board}{27}
+\contentsline {chapter}{\numberline {6}PCB design}{28}
+\contentsline {section}{\numberline {6.1}Draw PCB board}{28}
+\contentsline {chapter}{\numberline {7}Performance test}{33}
+\contentsline {section}{\numberline {7.1}Bandwidth simulation test}{33}
+\contentsline {section}{\numberline {7.2}Bandwidth practical circuit test}{35}
+\contentsline {section}{\numberline {7.3}Other practical test}{38}
+\contentsline {chapter}{\numberline {8}Conclusion}{39}

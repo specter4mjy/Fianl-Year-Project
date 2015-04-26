@@ -21,27 +21,40 @@
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Implement negative feedback circuit with transistor}}{17}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces transistor feedback circuit simulation result}}{17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces single current source circuit}}{18}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces single current source circuit simulation result}}{19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces the circuit after adding current source}}{19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces single current source circuit}}{19}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces single current source circuit simulation result}}{20}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces the circuit after adding current source}}{20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Class A output stage}}{20}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Class A output stage simulation result}}{21}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Class A DC operating current simulation data}}{21}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Class AB output stage}}{22}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Class AB output stage simulation result}}{22}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Class AB output stage DC operating current}}{22}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Class A output stage}}{21}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Class A output stage simulation result}}{22}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Class A DC operating current simulation data}}{22}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Class AB output stage}}{23}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Class AB output stage simulation result}}{23}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Class AB output stage DC operating current}}{23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic of final Design }}{23}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces voltage amplifier part }}{24}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Class AB outout stage}}{25}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Current source}}{25}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Negative feedback part}}{26}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic of final Design }}{24}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces voltage amplifier part }}{25}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Class AB outout stage}}{26}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Current source}}{27}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Negative feedback part}}{27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Step one transfer netlist data}}{27}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Step two change board size}}{28}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Step three arrange component}}{28}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Step four add important information on silkscreen layer }}{29}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Step five connect all components }}{30}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Finish autorout }}{30}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces PCB 3D view }}{31}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Step one transfer netlist data}}{28}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Step two change board size}}{29}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Step three arrange component}}{30}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Step four add important information on silkscreen layer }}{31}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Step five connect all components }}{31}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Finish autorout }}{32}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces PCB 3D view }}{32}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces AC analyse}}{33}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces find the maximum magnitude}}{34}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces find the lower bandwidth limitation}}{34}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces find the higher bandwidth limitation}}{35}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Bandwidth practical circuit for test}}{36}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces 1K sine wave input signal test}}{36}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces find the practical lower bandwidth limitation}}{37}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces find the practical higher bandwidth limitation}}{37}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Input sqaure wave}}{38}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Input triangle wave}}{38}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces micophone amplifier and headphone amplifier system}}{39}

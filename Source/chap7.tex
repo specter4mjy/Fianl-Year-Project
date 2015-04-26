@@ -1,0 +1,105 @@
+%!TEX root = main.tex
+\chapter{Performance test} 
+
+\section{Bandwidth simulation test} 
+
+For analysing bandwidth, we run the AC analyse in multisim and we get the curve like Figure~\ref{fig:AC analyse}.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.45]{"../Photo/Chap7/bandewith simulation"}
+\caption{AC analyse}
+\label{fig:AC analyse}
+\end{figure}
+
+Next,We set x value of cursor 2 to 1K and find that the output magnitude for that point is 1.0645V ie. 0dB is 1.0645V.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.45]{"../Photo/Chap7/1k cursor"}\\[0.5cm]
+\includegraphics[scale=1]{"../Photo/Chap7/1k cursor data"}
+\caption{find the maximum magnitude}
+\label{fig:find the maximum magnitude}
+\end{figure}
+
+According bandwidth definition, the magnitude of bandwidth limitation is -3dB.
+So
+\[ V_{-3dB}=\frac{V_{0dB}}{\sqrt{2}}=\frac{1.0645V}{\sqrt{2}}=0.752715V\approxeq 752 mV\]
+Then we set the cursor 1 to the position which magnitude of output signal is 752mV and the result is shown in Figure~\ref{fig:find the lower bandwidth limitation}.From the cursor data, we know $x2=14 Hz$ when $y2 = 752mV$ ie. the lower bandwidth limitation is 14 Hz.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.45]{"../Photo/Chap7/lower bandwoth"}\\[0.5cm]
+\includegraphics[scale=1]{"../Photo/Chap7/lower bandwoth data"}
+\caption{find the lower bandwidth limitation}
+\label{fig:find the lower bandwidth limitation}
+\end{figure}
+
+As same as step before, we move the cursor 1 to the higher frequency part and makesure its magnitude equals 752mV.This time we get the higher bandwidth limitation is $232KHz$ from cursors data table.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.45]{"../Photo/Chap7/higher band"}\\[0.5cm]
+\includegraphics[scale=1]{"../Photo/Chap7/higher bandwoth data"}
+\caption{find the higher bandwidth limitation}
+\label{fig:find the higher bandwidth limitation}
+\end{figure}
+
+Now from these simulation results, we can estimate the output bandwidth of our circuit is between $14Hz$ to $232KHZ$.
+
+\section{Bandwidth practical circuit test}
+Now we can do bandwidth test on our practical circuit.We connect signal generator to input port.In the meawhile, the speaker and ocilliscope connect to the output port.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=0.6]{"../Photo/Chap7/practical circuit"}
+\caption{Bandwidth practical circuit for test}
+\label{fig:Bandwidth practical circuit for test}
+\end{figure}
+
+As the same test steps as simulation, we measure the output magnitude of 1KHz input signal and the result is shown in Figure~\ref{fig:1K sine wave input signal test}.We can read the output magitude from ocilliscoe is 984mV which is very close our simulation result ie. 1.0645V.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=1]{"../Photo/Chap7/1ksine"}
+\caption{1K sine wave input signal test}
+\label{fig:1K sine wave input signal test}
+\end{figure}
+
+Then we need calculate the -3dB magnitude again.
+\[ V_{-3dB}=\frac{V_{0dB}}{\sqrt{2}}=\frac{984mV}{\sqrt{2}}approxeq 700 mV\]
+
+Therefore, I decrease the input signal frequency until the output signal magnitude equal 700mV.And the result is shown as Figure~\ref{fig:find the practical lower bandwidth limitation}.We can read input signal frequency at this moment is 22Hz ie. the practical lower bandwidth limitation is 22Hz.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=1]{"../Photo/Chap7/lower band"}
+\caption{find the practical lower bandwidth limitation}
+\label{fig:find the practical lower bandwidth limitation}
+\end{figure}
+
+Next,I increase the input signal frequency untial the output siganl magnitude euqal 700mv.And the result is shown as Figure~\ref{fig:find the practical higher bandwidth limitation}.We can read input signal frequency at this moment is 220kHz ie. the practical lower bandwidth limitation is 220kHz.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=1]{"../Photo/Chap7/higher band practical"}
+\caption{find the practical higher bandwidth limitation}
+\label{fig:find the practical higher bandwidth limitation}
+\end{figure}
+
+Now we get the result which we want to know is that our practical bandwidth region is 22Hz to 220KHz and this is very close to our simulation result in previous section.
+
+\section{Other practical test}
+
+We also input square wave to check whether its stable in hign frequency region and it's obvious that there is no overshoot in transition edge of output signal.There this result is satisfied.
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=1]{"../Photo/Chap7/1ksquare"}
+\caption{Input sqaure wave}
+\label{fig:Input sqaure wave}
+\end{figure}
+
+Next we input the triangle wav to check the linearity of out circuit and the result in Figure~\ref{fig:Input triangle wave} shows the output signal follows input signal very well.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[scale=1]{"../Photo/Chap7/1ktriangle"}
+\caption{Input triangle wave}
+\label{fig:Input triangle wave}
+\end{figure}

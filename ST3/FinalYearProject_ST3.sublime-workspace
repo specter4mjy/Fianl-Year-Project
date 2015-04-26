@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"syste",
+				"fig:micophone amplifier and headphone amplifier system"
+			],
+			[
+				"high",
+				"fig:find the practical higher bandwidth limitation"
+			],
+			[
+				"ac",
+				"fig:AC analyse"
+			],
+			[
+				"find",
+				"fig:find the maximum amplitude"
+			],
+			[
 				"ab",
 				"fig:Class AB outout stage"
 			],
@@ -44,10 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
+			"file": "/D/Project/Github/Fianl-Year-Project/Source/main.tex",
 			"settings":
 			{
-				"buffer_size": 4734,
+				"buffer_size": 1088,
 				"line_ending": "Windows"
 			}
 		},
@@ -76,10 +92,26 @@
 			}
 		},
 		{
-			"file": "/D/Project/Github/Fianl-Year-Project/Source/main.tex",
+			"file": "/D/Project/Github/Fianl-Year-Project/Source/chap7.tex",
 			"settings":
 			{
-				"buffer_size": 650,
+				"buffer_size": 4974,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Project/Github/Fianl-Year-Project/Source/chap8.tex",
+			"settings":
+			{
+				"buffer_size": 1017,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
+			"settings":
+			{
+				"buffer_size": 4734,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,17 +231,22 @@
 	[
 		"/D/Project/Github/Fianl-Year-Project",
 		"/D/Project/Github/Fianl-Year-Project/Photo",
-		"/D/Project/Github/Fianl-Year-Project/Photo/Chap6",
+		"/D/Project/Github/Fianl-Year-Project/Photo/Chap7",
 		"/D/Project/Github/Fianl-Year-Project/Source",
 		"/D/Project/Github/Fianl-Year-Project/ST2"
 	],
 	"file_history":
 	[
-		"/D/Project/Github/Fianl-Year-Project/Source/main.tex",
-		"/D/Project/Github/Learn_GIT/README",
-		"/D/Project/Github/Fianl-Year-Project/Source/chap6.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/chap3.tex",
 		"/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/chap5.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/chap6.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/chap7.tex",
 		"/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/main.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/chap4.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/abstract.tex",
+		"/D/Project/Github/Learn_GIT/README",
 		"/D/Project/Github/Fianl-Year-Project/Source/chap1.aux",
 		"/D/Project/Github/Fianl-Year-Project/ST3/FinalYearProject_ST3.sublime-project",
 		"/C/Users/Junyang/Desktop/test.tex",
@@ -237,7 +274,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -251,6 +288,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0.5",
+			"0.4",
+			"0.6",
+			"6",
+			"lower",
+			"1K sine wave input signal test",
+			"practical",
+			"find the higher bandwidth limitation",
+			"lower",
+			"find the maximum amplitude",
+			"maximum magnitude",
+			"amplitude",
+			"abstr",
 			"four",
 			"Chap5",
 			"Feed_back_ini",
@@ -274,36 +324,35 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
+					"file": "/D/Project/Github/Fianl-Year-Project/Source/main.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4734,
+						"buffer_size": 1088,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2137,
-								2137
+								1040,
+								1040
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 400.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -319,17 +368,17 @@
 						"selection":
 						[
 							[
-								2352,
-								2352
+								2666,
+								2666
 							]
 						],
 						"settings":
 						{
-							"spell_check": false,
-							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 752.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
@@ -348,8 +397,16 @@
 						"selection":
 						[
 							[
-								2272,
-								2272
+								273,
+								273
+							],
+							[
+								593,
+								593
+							],
+							[
+								1119,
+								1119
 							]
 						],
 						"settings":
@@ -358,10 +415,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 430.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -377,8 +434,8 @@
 						"selection":
 						[
 							[
-								5453,
-								5453
+								252,
+								252
 							]
 						],
 						"settings":
@@ -387,27 +444,55 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1645.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/D/Project/Github/Fianl-Year-Project/Source/main.tex",
+					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap7.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 650,
+						"buffer_size": 4974,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								396,
-								396
+								4973,
+								4812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap8.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1017,
+								1017
 							]
 						],
 						"settings":
@@ -418,11 +503,40 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
+					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap3.tex",
 					"semi_transient": false,
 					"settings":
@@ -434,8 +548,8 @@
 						"selection":
 						[
 							[
-								1513,
-								1513
+								149,
+								149
 							]
 						],
 						"settings":
@@ -443,14 +557,14 @@
 							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 280.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "/D/Project/Github/Fianl-Year-Project/Source/chap4.tex",
 					"semi_transient": false,
 					"settings":
@@ -462,8 +576,8 @@
 						"selection":
 						[
 							[
-								1974,
-								1974
+								730,
+								730
 							]
 						],
 						"settings":
@@ -474,7 +588,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
