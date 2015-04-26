@@ -1,43 +1,47 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Single transistor circuit}}{4}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Single transistor circuit simulation data}}{4}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces $ V_{be} $ and $ I_c $ curve}}{5}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Re model}}{6}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces DC sweep on V3 in Figure\nobreakspace {}1.1\hbox {} }}{7}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Ro model }}{7}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Basic transistor circuit with $R_c$ and $R_e$}}{8}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Output of the circuit in Figure 1.7\hbox {} }}{8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Add voltage divider and capacitors }}{9}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Single transistor circuit}}{5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Single transistor circuit simulation data}}{6}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces $ V_{be} $ and $ I_c $ curve}}{6}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Re model}}{7}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces DC sweep on V3 in Figure\nobreakspace {}1.1\hbox {} }}{8}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Ro model }}{9}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Basic transistor circuit with $R_c$ and $R_e$}}{9}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Output of the circuit in Figure 1.7\hbox {} }}{10}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Add voltage divider and capacitors }}{11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces simple negative feedback system}}{10}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Implement negative feedback circuit with Op-amp}}{11}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Op-amp feedback simulation result curve}}{11}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Feedback initail circuit }}{12}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Feedback initail circuit output}}{12}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Feedback circuit adding pull-push part}}{13}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Feedback circuit adding pull-push part output}}{13}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Feedback circuit after moving feedback point}}{13}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Feedback circuit after moving feedback point output}}{14}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Implement negative feedback circuit with transistor}}{14}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces transistor feedback circuit simulation result}}{15}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces simple negative feedback system}}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Implement negative feedback circuit with Op-amp}}{13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Op-amp feedback simulation result curve}}{13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Feedback initail circuit }}{14}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Feedback initail circuit output}}{14}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Feedback circuit adding pull-push part}}{15}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Feedback circuit adding pull-push part output}}{15}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Feedback circuit after moving feedback point}}{16}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Feedback circuit after moving feedback point output}}{16}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Implement negative feedback circuit with transistor}}{17}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces transistor feedback circuit simulation result}}{17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces single current source circuit}}{16}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces single current source circuit simulation result}}{17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces the circuit after adding current source}}{17}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces single current source circuit}}{18}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces single current source circuit simulation result}}{19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces the circuit after adding current source}}{19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Class A output stage}}{18}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Class A output stage simulation result}}{19}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Class A DC operating current simulation data}}{19}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Class AB output stage}}{20}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Class AB output stage simulation result}}{20}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Class AB output stage DC operating current}}{20}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Class A output stage}}{20}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Class A output stage simulation result}}{21}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Class A DC operating current simulation data}}{21}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Class AB output stage}}{22}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Class AB output stage simulation result}}{22}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Class AB output stage DC operating current}}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic of final Design }}{21}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces voltage amplifier part }}{22}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Class AB outout stage}}{23}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Current source}}{23}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Negative feedback part}}{24}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic of final Design }}{23}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces voltage amplifier part }}{24}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Class AB outout stage}}{25}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Current source}}{25}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Negative feedback part}}{26}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Layout conponents }}{25}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Finsh autorout }}{26}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces PCB 3D view }}{26}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Step one transfer netlist data}}{27}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Step two change board size}}{28}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Step three arrange component}}{28}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Step four add important information on silkscreen layer }}{29}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Step five connect all components }}{30}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Finish autorout }}{30}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces PCB 3D view }}{31}

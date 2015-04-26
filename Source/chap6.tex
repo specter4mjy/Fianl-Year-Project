@@ -3,24 +3,61 @@
 
 \section{Draw PCB board}
 
-Finst of all, we layout all components and try arrange their position similar to where in schematic and we get result like Figure~\ref{fig:Layout conponents}.
+Step one, we transfer netlist data from multisim to Ultoboard and the result is shown in Figure~\ref{fig:Step one transfer netlist datas}. 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6]{"../Photo/Chap6/first_inport_netlist"}
+	\caption{Step one transfer netlist data}
+	\label{fig:Step one transfer netlist datas}
+\end{figure}
+
+
+Step two, we changed board size to 5cm x 5cm and the result is shown in Figure~\ref{fig:Step two change board size}.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6]{"../Photo/Chap6/step_two_change_board_size"}
+	\caption{Step two change board size}
+	\label{fig:Step two change board size}
+\end{figure}
+
+Step three, we layout all components and try arrange their position similar to where in schematic and we modified the locations of components.Then we added all value of resistors and capacitors which is useful when we solder this board.At the end of this step, we get result like Figure~\ref{fig:Step three arrange component}.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6]{"../Photo/Chap6/step_sthree_arrange_components"}
+	\caption{Step three arrange component}
+	\label{fig:Step three arrange component}
+\end{figure}
+
+
+Step four, I added my name and student ID on the silkscreen layer.In the meanwhile, I marked the ground ports, input signal port, output signal port and the port need connected to battery because these silkscreen texts will help me connect this board to DC power source and ocilloscope.Ultil finish this step, the board is shown in Figure~\ref{fig:Step four add important information on silkscreen layer}.
+ 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[scale=0.7]{"../Photo/Chap6/final PCB not rout"}
-	\caption{Layout conponents }
-	\label{fig:Layout conponents}
+	\caption{Step four add important information on silkscreen layer }
+	\label{fig:Step four add important information on silkscreen layer}
 \end{figure}
 
-Next step, we connect all pads using autorout tool and do some modification, we can get result like Figure~\ref{fig:Finsh autorout}.
+Step five, we run autoroute command to connect all components and the board is like the Figure~\ref{fig:Step five connect all components}.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[scale=0.6]{"../Photo/Chap6/Step_five_run_autoroute"}
+	\caption{Step five connect all components }
+	\label{fig:Step five connect all components}
+\end{figure}
+
+It's obviouse that the traces routed by computer is not smooth enough, so we need modify them manually.For example, lets make ground line straight.
+Then I added teardrops to all pads to make pads more strongger.After finish doing all these, we can get result like Figure~\ref{fig:Finsh autorout}.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[scale=0.9]{"../Photo/Chap6/final PCB all"}
-	\caption{Finsh autorout }
+	\caption{Finish autorout }
 	\label{fig:Finsh autorout}
 \end{figure}
 
-Finaly, I finish my PCB board design and 3D view shown in Figure~\ref{fig:PCB 3D view}.
+Finaly, we can view our board in 3D view which shown in Figure~\ref{fig:PCB 3D view}.By using this view mode, we can check whether there is any mistakes in our design and we can eliminate them before we send the Gerber file to manufacturer.
 
 \begin{figure}[htbp]
 	\centering
