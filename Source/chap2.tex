@@ -9,7 +9,7 @@
 	\label{fig:Feedback system}
 \end{figure}
 
-Figure \ref{fig:Feedback system} show a simple negative feedback system in which A is ideal amplifier and B is feedback network. 
+Figure \ref{fig:Feedback system} show a simple negative feedback  system in \cite{Negativefeedback}which A is ideal amplifier and B is feedback network. 
 
 \[  \frac{V_{out}}{V_{in}} = \frac{1}{B}  \] 
  
@@ -53,14 +53,14 @@ At the beginning, our circuit in Figure~\ref{fig:Feedback init} used is same as 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[scale=0.65]{"../Photo/Chap2/Feed_back_ini"}
-	\caption{Feedback initail circuit  }
+	\caption{Feedback initial circuit  }
 	\label{fig:Feedback init}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[scale=0.7]{"../Photo/Chap2/Feedback_ini_data"}
-	\caption{Feedback initail circuit output}
+	\caption{Feedback initial circuit output}
 	\label{fig:Feedback init data}
 \end{figure}
 
@@ -80,7 +80,7 @@ Next we introduce some distortion to the output signal using  pull-push output p
 	\label{fig:Feedback before data}
 \end{figure}
 
-Next step, we move feedback point from Pin 5 of Op-Amp U6 to the emiter teminal of transister Q11 as show in Figure~\ref{fig:Feedback after}. From Figure~\ref{fig:Feedback after data}, there's great improvement and we can hardly see any distortion of output signal. It proved that feedback is very useful in aspect of eliminating output distortion.
+Next step, we move feedback point from Pin 5 of Op-Amp U6 to the emitter terminal of transistor Q11 as show in Figure~\ref{fig:Feedback after}. From Figure~\ref{fig:Feedback after data}, there's great improvement and we can hardly see any distortion of output signal. It proved that feedback is very useful in aspect of eliminating output distortion.
 
 
 \begin{figure}[htbp]
@@ -124,7 +124,7 @@ The voltage gain of circuit in Figure \ref{fig:transistorfeedback} is $ Gain = \
  
  
 \section{AB calculation}
-We konow
+We know
 \[ I_{e1} =\frac{V_{be}}{R_9}=\frac{0.65V}{3300}=0.2mA\]
 So
 \[ A1=\frac{R_c//R_o}{R_e}=\frac{33000//\frac{75V}{I_e1}}{\frac{25mV}{I_{e1}}}=\frac{3300//\frac{75V}{0.2mA}}{\frac{25mV}{0.2mA}}=26\]
@@ -140,4 +140,4 @@ So
 We know the $B=\frac{1}{11}$
 Therefore
 \[AB=\frac{442}{11}=40\]
-Because AB is less than 100, this's not good enough.
+Because AB is less than 100, this is not good enough.

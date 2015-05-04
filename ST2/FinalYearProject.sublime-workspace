@@ -80,26 +80,15 @@
 	"buffers":
 	[
 		{
-			"contents": "",
-			"file": "/F/00IC-XDS100V3/赠送的资料下载地址.txt",
-			"file_size": -1,
-			"file_write_time": -1,
+			"file": "/D/Project/product development assignment 1/main.tex",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Project/LEARNING_CADENCE/CAPTURE_CIS/FULLADD.BOM",
-			"settings":
-			{
-				"buffer_size": 280,
+				"buffer_size": 4855,
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -171,10 +160,12 @@
 	},
 	"file_history":
 	[
-		"/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
-		"/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
-		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
 		"/D/Project/Github/Fianl-Year-Project/Source/main.tex",
+		"/D/Project/Github/Fianl-Year-Project/Source/chap2.tex",
+		"/D/Project/LEARNING_CADENCE/CAPTURE_CIS/FULLADD.BOM",
+		"/F/00IC-XDS100V3/赠送的资料下载地址.txt",
+		"/D/Project/Github/Fianl-Year-Project/Source/chap1.tex",
+		"/C/Users/Junyang/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
 		"/D/Project/Github/Fianl-Year-Project/Photo/Chap2/Feed_back_ini.png",
 		"/D/Project/Github/Fianl-Year-Project/Photo/Chap2/Feed back ini after.png",
 		"/D/Project/product development assignment 1/main.tex",
@@ -249,54 +240,28 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/F/00IC-XDS100V3/赠送的资料下载地址.txt",
+					"file": "/D/Project/product development assignment 1/main.tex",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 4855,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								261,
+								261
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/Project/LEARNING_CADENCE/CAPTURE_CIS/FULLADD.BOM",
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								255,
-								255
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

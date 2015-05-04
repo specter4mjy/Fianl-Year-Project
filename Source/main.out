@@ -1,0 +1,31 @@
+\BOOKMARK [0][-]{chapter.1}{Simple transistor circuit}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Transistor basic property}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Find \040Re \040}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Find Ro}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Limit current gain}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Add voltage divider}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Negative Feedback}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Simple Negative Feedback system}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Implement Using Op-amp}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Find the function of Feedback }{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Implement Using transistor}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{AB calculation}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Current Source}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Single current source circuit}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Use current source to replace output resistor}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{Output Stage}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Class A Output Stage}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{Class AB Output Stage}{chapter.4}% 18
+\BOOKMARK [0][-]{chapter.5}{Final design}{}% 19
+\BOOKMARK [1][-]{section.5.1}{Final schematic}{chapter.5}% 20
+\BOOKMARK [2][-]{subsection.5.1.1}{Voltage amplifier}{section.5.1}% 21
+\BOOKMARK [2][-]{subsection.5.1.2}{Class AB output stage}{section.5.1}% 22
+\BOOKMARK [2][-]{subsection.5.1.3}{Current source }{section.5.1}% 23
+\BOOKMARK [2][-]{subsection.5.1.4}{Negative feedback part}{section.5.1}% 24
+\BOOKMARK [0][-]{chapter.6}{PCB design}{}% 25
+\BOOKMARK [1][-]{section.6.1}{Draw PCB board}{chapter.6}% 26
+\BOOKMARK [0][-]{chapter.7}{Performance test}{}% 27
+\BOOKMARK [1][-]{section.7.1}{Bandwidth simulation test}{chapter.7}% 28
+\BOOKMARK [1][-]{section.7.2}{Bandwidth practical circuit test}{chapter.7}% 29
+\BOOKMARK [1][-]{section.7.3}{Other practical test}{chapter.7}% 30
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 31

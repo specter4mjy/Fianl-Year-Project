@@ -3,12 +3,12 @@
 
 \section{Draw PCB board}
 
-Step one, we transfer netlist data from multisim to Ultoboard and the result is shown in Figure~\ref{fig:Step one transfer netlist datas}. 
+Step one, we transfer net-list data from multisim to Ultoboard and the result is shown in Figure~\ref{fig:Step one transfer netlist datas}. 
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[scale=0.7]{"../Photo/Chap6/first_inport_netlist"}
-	\caption{Step one transfer netlist data}
+	\caption{Step one transfer net-list data}
 	\label{fig:Step one transfer netlist datas}
 \end{figure}
 
@@ -30,7 +30,7 @@ Step three, we layout all components and try arrange their position similar to w
 \end{figure}
 
 
-Step four, I added my name and student ID on the silkscreen layer.In the meanwhile, I marked the ground ports, input signal port, output signal port and the port need connected to battery because these silkscreen texts will help me connect this board to DC power source and ocilloscope.Ultil finish this step, the board is shown in Figure~\ref{fig:Step four add important information on silkscreen layer}.
+Step four, I added my name and student ID on the silkscreen layer.In the meanwhile, I marked the ground ports, input signal port, output signal port and the port need connected to battery because these silkscreen texts will help me connect this board to DC power source and oscilloscope.Until finish this step, the board is shown in Figure~\ref{fig:Step four add important information on silkscreen layer}.
  
 \begin{figure}[htbp]
 	\centering
@@ -39,7 +39,7 @@ Step four, I added my name and student ID on the silkscreen layer.In the meanwhi
 	\label{fig:Step four add important information on silkscreen layer}
 \end{figure}
 
-Step five, we run autoroute command to connect all components and the board is like the Figure~\ref{fig:Step five connect all components}.
+Step five, we run auto route command to connect all components and the board is like the Figure~\ref{fig:Step five connect all components}.
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[scale=0.6]{"../Photo/Chap6/Step_five_run_autoroute"}
@@ -47,17 +47,17 @@ Step five, we run autoroute command to connect all components and the board is l
 	\label{fig:Step five connect all components}
 \end{figure}
 
-It's obviouse that the traces routed by computer is not smooth enough, so we need modify them manually.For example, lets make ground line straight.
-Then I added teardrops to all pads to make pads more strongger.After finish doing all these, we can get result like Figure~\ref{fig:Finsh autorout}.
+It's obvious that the traces routed by computer is not smooth enough, so we need modify them manually.For example, lets make ground line straight.
+Then I added teardrops to all pads to make pads more stronger.After finish doing all these, we can get result like Figure~\ref{fig:Finsh autorout}.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[scale=0.9]{"../Photo/Chap6/final PCB all"}
-	\caption{Finish autorout }
+	\caption{Finish auto rout }
 	\label{fig:Finsh autorout}
 \end{figure}
 
-Finaly, we can view our board in 3D view which shown in Figure~\ref{fig:PCB 3D view}.By using this view mode, we can check whether there is any mistakes in our design and we can eliminate them before we send the Gerber file to manufacturer.
+Finally, we can view our board in 3D view which shown in Figure~\ref{fig:PCB 3D view}.By using this view mode, we can check whether there is any mistakes in our design and we can eliminate them before we send the Gerber file to manufacturer.
 
 \begin{figure}[htbp]
 	\centering
