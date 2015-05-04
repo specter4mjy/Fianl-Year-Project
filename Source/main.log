@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.8)  26 APR 2015 17:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.8)  4 MAY 2015 16:01
 entering extended mode
 **D:/Project/Github/Fianl-Year-Project/Source/main.tex
 (D:/Project/Github/Fianl-Year-Project/Source/main.tex
@@ -505,7 +505,7 @@ back simulation cursor data.png>]) [18]
 (D:\Project\Github\Fianl-Year-Project\Source\chap3.tex
 Chapter 3.
 
-<"../Photo/Chap3/single current source".png, id=129, 316.18124pt x 272.51813pt>
+<"../Photo/Chap3/single current source".png, id=130, 316.18124pt x 272.51813pt>
 File: "../Photo/Chap3/single current source".png Graphic file (type png)
 <use "../Photo/Chap3/single current source".png>
 Package pdftex.def Info: "../Photo/Chap3/single current source".png used on inp
@@ -538,13 +538,13 @@ imulation result.png> <D:/Project/Github/Fianl-Year-Project/Photo/Chap3/add cuu
 rent source.png>]
 (D:\Project\Github\Fianl-Year-Project\Source\chap4.tex
 Chapter 4.
-<"../Photo/Chap4/Class A output stage".png, id=142, 642.14906pt x 463.7325pt>
+<"../Photo/Chap4/Class A output stage".png, id=142, 383.18156pt x 319.1925pt>
 File: "../Photo/Chap4/Class A output stage".png Graphic file (type png)
 
 <use "../Photo/Chap4/Class A output stage".png>
 Package pdftex.def Info: "../Photo/Chap4/Class A output stage".png used on inpu
 t line 10.
-(pdftex.def)             Requested size: 385.2924pt x 278.24164pt.
+(pdftex.def)             Requested size: 383.18062pt x 319.19171pt.
 
 <"../Photo/Chap4/Class A simulation result".png, id=143, 510.40688pt x 237.1359
 4pt>
@@ -874,7 +874,7 @@ Package pdftex.def Info: "../Photo/Chap7/last system".png used on input line 8.
 Here is how much of TeX's memory you used:
  2992 strings out of 493921
  51764 string characters out of 3142064
- 100939 words of memory out of 3000000
+ 100950 words of memory out of 3000000
  6136 multiletter control sequences out of 15000+200000
  12363 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -893,7 +893,7 @@ s/cm/cmsy10.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/type1/publi
 c/amsfonts/symbols/msam10.pfb><D:/Software/Office/Latex/Miktex 2.9.5105/fonts/t
 ype1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (42 pages, 2615704 bytes).
+Output written on main.pdf (42 pages, 2596036 bytes).
 PDF statistics:
  310 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

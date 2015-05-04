@@ -11,7 +11,7 @@
 
 Figure \ref{fig:Feedback system} show a simple negative feedback system in which A is ideal amplifier and B is feedback network. 
 
-\[  \frac{V_{out}}{V_{in}} = B  \] 
+\[  \frac{V_{out}}{V_{in}} = \frac{1}{B}  \] 
  
 
 
@@ -31,7 +31,7 @@ In Figure \ref{fig:Op-amp feedback}, an Op-amp 741 is used to implement the nega
 
 
 741 is part A while R1 and R2 form feedback network. 
-\[ \frac{V_{out}}{V_{in}} = B = \frac{R1 + R2}{R2} = \frac{10K + 1K}{1K} = 11 \]
+\[ \frac{V_{out}}{V_{in}} = \frac{1}{B} = \frac{R1 + R2}{R2} = \frac{10K + 1K}{1K} = 11 \]
  
 \begin{figure}[htbp]
 	\centering 
@@ -42,7 +42,7 @@ In Figure \ref{fig:Op-amp feedback}, an Op-amp 741 is used to implement the nega
 \end{figure}
 
 From simulation result in Figure \ref{fig:Op-amp  feedback simulation result }, 
-\[ B = \frac{\Delta V_{out}}{\Delta V_{in}} =  \frac{2.1972}{199.8674m} =  10.99328 \]
+\[ \frac{1}{B} = \frac{\Delta V_{out}}{\Delta V_{in}} =  \frac{2.1972}{199.8674m} =  10.99328 \]
  
 Obviously, the simulation result is very close to our estimation.
 
@@ -108,7 +108,7 @@ Next step, we move feedback point from Pin 5 of Op-Amp U6 to the emiter teminal 
 \label{fig:transistorfeedback}
 \end{figure}
 
-In Figure \ref{fig:transistorfeedback} circuit, Op-amp replaced by circuit in Figure \ref{fig:add voltage divider}. R12 and R15 make up feedback network which $ B = \frac{R15+R12}{R12} = 11 $. As we see in Figure \ref{fig:Op-amp  feedback simulation result }, the output is reverse to input. Therefore, we add another transistor Q6 to eliminate the phase difference of signal.
+In Figure \ref{fig:transistorfeedback} circuit, Op-amp replaced by circuit in Figure \ref{fig:add voltage divider}. R12 and R15 make up feedback network which $ \frac{1}{B} = \frac{R15+R12}{R12} = 11 $. As we see in Figure \ref{fig:Op-amp  feedback simulation result }, the output is reverse to input. Therefore, we add another transistor Q6 to eliminate the phase difference of signal.
 
 
 \begin{figure}[htbp]
@@ -123,3 +123,21 @@ Apparently, there's no phase difference between input and output signal.
 The voltage gain of circuit in Figure \ref{fig:transistorfeedback} is $ Gain = \frac{\Delta V_{out}}{\Delta V_{in}} = \frac{2.0534}{198.8221m} = 10.3707$. It's also very close to theory result.
  
  
+\section{AB calculation}
+We konow
+\[ I_{e1} =\frac{V_{be}}{R_9}=\frac{0.65V}{3300}=0.2mA\]
+So
+\[ A1=\frac{R_c//R_o}{R_e}=\frac{33000//\frac{75V}{I_e1}}{\frac{25mV}{I_{e1}}}=\frac{3300//\frac{75V}{0.2mA}}{\frac{25mV}{0.2mA}}=26\]
+
+We know
+\[ V_{R15}=I_{e1}\times R15=2V\]
+\[V_{c2}=V_{b1}-V_{be}-V_{R15}=4.7V\]
+\[I_{e2}=I_{c2}=\frac{V_{c2}}{R16}=0.2mA\]
+So
+\[ A2=\frac{R_c//R_o}{R_e}=\frac{2200//\frac{75V}{I_{e2}}}{\frac{25mV}{I_{e2}}
+}=\frac{2200//\frac{75V}{0.2mA}}{\frac{25mV}{0.2mA}}=17.49\]
+\[A=A1\times A2=442\]
+We know the $B=\frac{1}{11}$
+Therefore
+\[AB=\frac{442}{11}=40\]
+Because AB is less than 100, this's not good enough.

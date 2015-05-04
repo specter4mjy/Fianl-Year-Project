@@ -9,6 +9,7 @@
 \contentsline {section}{\numberline {2.2}Implement Using Op-amp}{12}
 \contentsline {section}{\numberline {2.3}Find the function of Feedback }{14}
 \contentsline {section}{\numberline {2.4}Implement Using transistor}{16}
+\contentsline {section}{\numberline {2.5}AB calculation}{18}
 \contentsline {chapter}{\numberline {3}Current Source}{19}
 \contentsline {section}{\numberline {3.1}Single current source circuit}{19}
 \contentsline {section}{\numberline {3.2}Use current source to replace output resistor}{20}
